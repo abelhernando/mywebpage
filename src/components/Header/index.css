@@ -4,3 +4,8 @@
     margin-top: 56px;
 }
 
+.header-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}

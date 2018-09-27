@@ -1,4 +1,7 @@
 .skills {
     background-color: blue;
     height: 90%;
+    display: inline-flex;
+    text-align: left;
+    width: 100%;
 }
