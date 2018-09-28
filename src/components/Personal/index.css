@@ -1,5 +1,31 @@
 .personal {
     background-color: white;
     height: 90%;
+    background: url(../../styles/images/test-images/treeroad.jpg) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
+
+/* #personal {
+    background: url(../../styles/images/test-images/treeroad.jpg) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+
+.personal img {
+    border-radius: 25%;
+
+}
+
+.energyimg{
+max-width: 225px;
+}
+
+.worldimg{
+max-width: 300px;
+}
