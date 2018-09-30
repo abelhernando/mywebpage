@@ -7,6 +7,10 @@ import Contact from './components/Contact/contact';
 import Personal from './components/Personal/personal';
 import Skills from './components/Skills/skills';
 import Header from './components/Header/header';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { phone } from '@fortawesome/free-solid-svg-icons'
+
+library.add()
 
 class App extends Component {
   render() {

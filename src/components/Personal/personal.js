@@ -1,42 +1,38 @@
 import React from 'react';
-import { Table } from 'reactstrap';
-import './index.css'
+import { Card, CardBody, CardTitle, CardText, CardImg } from 'reactstrap';
 import sport from '../../styles/images/test-images/sport.jpg'
 import energy from '../../styles/images/test-images/powerup.jpg'
 import world from '../../styles/images/test-images/world.png'
 
-export default class Personal extends React.Component {
-  render() {
-    return (
-      <Table borderless className="section-target" id='personal' >
-        <thead className='personal'>
-          <tr>
-            
-            <th><img className='sportimg' src={sport} alt="sports lover" /></th>
-           
-            <th> <img className='energyimg' src={energy} alt="full energy" /></th>
-            
-            <th><img className='worldimg' src={world} alt="the world" /></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>Sports Lover</th>
-            <th>Full energy</th>
-            <th>Globetrotter</th>
-          </tr>
-          <tr>
-            <td>Martial arts practisioner</td>
-            <td>Proactive</td>
-            <td>Love to travel</td>
-          </tr>
-          <tr>
-            <td>Rugby, American football, Soccer and Basketball</td>
-            <td>Always looking for the better way to do it</td>
-            <td>Open minded</td>
-          </tr>
-        </tbody>
-      </Table>
-    );
-  }
-}
+const Personal = (props) => {
+  return (
+    <div className="section-target" id='personal'>
+      <Card>
+        {/* <CardImg className='personal-image' top src={sport} alt="sports lover" /> */}
+        <CardBody>
+          <CardTitle>Sports Lover</CardTitle>
+          <CardText>Martial arts practisioner</CardText>
+          <CardText>Rugby, American football, Soccer and Basketball</CardText>
+        </CardBody>
+      </Card>
+      <Card>
+        {/* <CardImg className='personal-image' top src={energy} alt="powerup" /> */}
+        <CardBody>
+          <CardTitle>Full energy</CardTitle>
+          <CardText>Proactive</CardText>
+          <CardText>Always looking for the better way to do it</CardText>
+        </CardBody>
+      </Card>
+      <Card>
+        {/* <CardImg className='personal-image' top src={world} alt="love to travel" /> */}
+        <CardBody>
+          <CardTitle>Globetrotter</CardTitle>
+          <CardText>Love to travel</CardText>
+          <CardText>Open minded</CardText>
+        </CardBody>
+      </Card>
+    </div>
+  );
+};
+
+export default Personal;

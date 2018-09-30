@@ -1,7 +1,8 @@
 .portfolio {
     background-color:green;
-    height: 60%;
-    background: url(../../styles/images/test-images/roadlandscape.jpg) no-repeat fixed;
+    color: white;
+    height: 80%;
+    background: url(../../styles/images/bluepatternlight.jpg) no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -10,10 +11,10 @@
 
 .settle, .website {
     -webkit-clip-path: circle(48.6% at 49% 50%);
-    clip-path: circle(48.6% at 49% 50%);
-    width: 550px;
-    max-width: 50%;
-    display: inline-flex;
-    margin-left: auto;
-    margin-right: auto;
+    clip-path: circle(30.6% at 49% 50%);
+    width: 100%;
+    max-width: 45%;
+    display: inline-grid;
+    margin-left: 2%;
+    margin-right: 2%;
 }

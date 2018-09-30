@@ -1,7 +1,7 @@
 .personal {
-    background-color: white;
     height: 90%;
-    background: url(../../styles/images/test-images/treeroad.jpg) no-repeat fixed;
+    width: 50%;
+    background: url(../../styles/images/test-images/mia.jpg) no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9,17 +9,16 @@
 }
 
 
-/* #personal {
+#personal {
     background: url(../../styles/images/test-images/treeroad.jpg) no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-} */
+}
 
-.personal img {
-    border-radius: 25%;
-
+.card-img-top {
+    width: 5px;
 }
 
 .energyimg{

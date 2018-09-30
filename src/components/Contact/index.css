@@ -1,6 +1,14 @@
 .contact {
     background-color: black;
-    height: 30%;
+    height: 50%;
     color: white;
-}
-
+        background: url(../../styles/images/blackbox.jpg) no-repeat fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .actions  {        
+        list-style-type: none;
+    }

@@ -2,7 +2,7 @@
     background-color: red;
     height: 90%;
     margin-top: 56px;
-    background: url(../../styles/images/test-images/mia.jpg) no-repeat fixed;
+    background: url(../../styles/images/propuesta1.png) no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -14,3 +14,5 @@
     top: 50%;
     transform: translateY(-50%); 
 }
+
+

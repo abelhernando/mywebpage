@@ -41,7 +41,7 @@ export default class MyNavbar extends React.Component {
                 <NavLink href="/#introduction" onClick={this.close}>Introduction</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/#skills" onClick={this.close}>Skills</NavLink>
+                <NavLink href="/#skills" onClick={this.close}>What I know</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/#personal" onClick={this.close}>Who am I</NavLink>
