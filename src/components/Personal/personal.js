@@ -1,37 +1,40 @@
 import React from 'react';
-import { Card, CardBody, CardTitle, CardText, CardImg } from 'reactstrap';
-import sport from '../../styles/images/test-images/sport.jpg'
-import energy from '../../styles/images/test-images/powerup.jpg'
-import world from '../../styles/images/test-images/world.png'
+import { Card, CardImg, CardTitle, CardText, CardDeck,
+ CardSubtitle, CardBody, Col } from 'reactstrap';
+import sport from '../../styles/images/medium-images/sports.png'
+import energy from '../../styles/images/medium-images/battery.png'
+import world from '../../styles/images/medium-images/Emoji_Earth.png'
 
 const Personal = (props) => {
   return (
-    <div className="section-target" id='personal'>
-      <Card>
-        {/* <CardImg className='personal-image' top src={sport} alt="sports lover" /> */}
+      <Col xs={10} md={10}>
+    <CardDeck className="section-target" id='personal'>
+      <Card className='cards'>
+        <CardImg top width="100%" className='images' src={sport} alt="Card image cap" />
         <CardBody>
           <CardTitle>Sports Lover</CardTitle>
-          <CardText>Martial arts practisioner</CardText>
+          <CardSubtitle>Martial arts practisioner</CardSubtitle>
           <CardText>Rugby, American football, Soccer and Basketball</CardText>
         </CardBody>
       </Card>
       <Card>
-        {/* <CardImg className='personal-image' top src={energy} alt="powerup" /> */}
+        <CardImg top width="100%" className='images' src={energy} alt="Card image cap" />
         <CardBody>
           <CardTitle>Full energy</CardTitle>
-          <CardText>Proactive</CardText>
+          <CardSubtitle>Proactive</CardSubtitle>
           <CardText>Always looking for the better way to do it</CardText>
         </CardBody>
       </Card>
       <Card>
-        {/* <CardImg className='personal-image' top src={world} alt="love to travel" /> */}
+        <CardImg top width="100%" className='images' src={world} alt="Card image cap" />
         <CardBody>
           <CardTitle>Globetrotter</CardTitle>
-          <CardText>Love to travel</CardText>
+          <CardSubtitle>Love to travel</CardSubtitle>
           <CardText>Open minded</CardText>
         </CardBody>
       </Card>
-    </div>
+    </CardDeck>
+        </Col>
   );
 };
 
