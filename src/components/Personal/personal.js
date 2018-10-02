@@ -1,41 +1,85 @@
+// import React from 'react';
+// import { Card, CardImg, CardTitle, CardText, CardDeck,
+//  CardSubtitle, CardBody, Col } from 'reactstrap';
+// import sport from '../../styles/images/medium-images/sports.png'
+// import energy from '../../styles/images/medium-images/battery.png'
+// import world from '../../styles/images/medium-images/Emoji_Earth.png'
+
+// const Personal = (props) => {
+//   return (
+//       <Col xs={10} md={10} className='personal'>
+//     <CardDeck className="section-target" id='personal'>
+//       <Card className='cards'>
+//         <CardImg top width="100%" className='images' src={sport} alt="Card image cap" />
+//         <CardBody>
+//           <CardTitle>Sports Lover</CardTitle>
+//           <CardSubtitle>Martial arts practisioner</CardSubtitle>
+//           <CardText>Rugby, American football, Soccer and Basketball</CardText>
+//         </CardBody>
+//       </Card>
+//       <Card>
+//         <CardImg top width="100%" className='images' src={energy} alt="Card image cap" />
+//         <CardBody>
+//           <CardTitle>Full energy</CardTitle>
+//           <CardSubtitle>Proactive</CardSubtitle>
+//           <CardText>Always looking for the better way to do it</CardText>
+//         </CardBody>
+//       </Card>
+//       <Card>
+//         <CardImg top width="100%" className='images' src={world} alt="Card image cap" />
+//         <CardBody>
+//           <CardTitle>Globetrotter</CardTitle>
+//           <CardSubtitle>Love to travel</CardSubtitle>
+//           <CardText>Open minded</CardText>
+//         </CardBody>
+//       </Card>
+//     </CardDeck>
+//         </Col>
+//   );
+// };
+
+// export default Personal;
+
 import React from 'react';
-import { Card, CardImg, CardTitle, CardText, CardDeck,
- CardSubtitle, CardBody, Col } from 'reactstrap';
+import './index.css';
+import Flip from 'react-reveal/Flip';
+import Reveal from 'react-reveal/Reveal';
 import sport from '../../styles/images/medium-images/sports.png'
 import energy from '../../styles/images/medium-images/battery.png'
 import world from '../../styles/images/medium-images/Emoji_Earth.png'
 
-const Personal = (props) => {
-  return (
-      <Col xs={10} md={10}>
-    <CardDeck className="section-target" id='personal'>
-      <Card className='cards'>
-        <CardImg top width="100%" className='images' src={sport} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Sports Lover</CardTitle>
-          <CardSubtitle>Martial arts practisioner</CardSubtitle>
-          <CardText>Rugby, American football, Soccer and Basketball</CardText>
-        </CardBody>
-      </Card>
-      <Card>
-        <CardImg top width="100%" className='images' src={energy} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Full energy</CardTitle>
-          <CardSubtitle>Proactive</CardSubtitle>
-          <CardText>Always looking for the better way to do it</CardText>
-        </CardBody>
-      </Card>
-      <Card>
-        <CardImg top width="100%" className='images' src={world} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Globetrotter</CardTitle>
-          <CardSubtitle>Love to travel</CardSubtitle>
-          <CardText>Open minded</CardText>
-        </CardBody>
-      </Card>
-    </CardDeck>
-        </Col>
-  );
-};
+export default class Personal extends React.Component {
+  render() {
+    return (
+      <div className="section-target" id='personal'>
+        <div className='cards'>
+          <img src={sport} alt="ECMA6" className='img-responsive' />
+          <ul>
+            <li>Sports Lover</li>
+            <li>Martial arts fanatic</li>
+            <li>Rugby, American football, Soccer and Basketball</li>
+          </ul>
+        </div>
+        <div className='cards'>
+          <img src={energy} alt="react" className='img-responsive' />
+          <ul>
+            <li>Full energy</li>
+            <li>Proactive</li>
+            <li>Always looking for the better way to do it</li>
+          </ul>
+        </div>
+        <div className='cards'>
+          <img src={world} alt="CSS" className='img-responsive'/>
+          <ul>
+            <li>Globetrotter</li>
+            <li>Love to travel</li>
+          </ul>
+        </div>
+      </div>
+    )
+  }
+}
 
-export default Personal;
+
+
+

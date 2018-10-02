@@ -22,6 +22,7 @@
 } */
 #skills {
 display: inline-grid;
+margin-bottom: 10%;
 }
 
 .skills img{

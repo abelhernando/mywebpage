@@ -28,7 +28,7 @@ import personalwebsite from '../../styles/images/test-images/treeroad.jpg'
 
 function Portfolio() {
     return (<div className='portfolio'>
-        <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <div className="portfolio-card">
             <div className="hovereffect">
                 <CardImg className="img-responsive" src={settlewise} alt="" />
                 <div className="overlay">
@@ -39,7 +39,7 @@ function Portfolio() {
                 </div>
             </div>
         </div>
-        <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <div className="portfolio-card">
             <div className="hovereffect">
                 <img className="img-responsive" src={personalwebsite} alt="" />
                 <div className="overlay">
@@ -55,3 +55,5 @@ function Portfolio() {
 }
 
 export default Portfolio
+
+
