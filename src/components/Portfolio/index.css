@@ -1,24 +1,22 @@
 .portfolio {
     color: white;
     height: 80%;
-    background: url(../../styles/images/bluepatternlight.jpg) no-repeat fixed;
+    background: url(../../styles/images/color.png) no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /* display: inline-flex;
+    display: inline-flex;
     height: 70%;
-    align-items: center; */
+    align-items: center;
+    width: 100%;
   }
 
 .img-responsive {
-    /* -webkit-clip-path: circle(48.6% at 49% 50%); */
-    /* clip-path: circle(30.6% at 49% 50%); */
+
     width: 45%;
     max-width: 45%;
     height: 45%;
-    max-height: 45%;
-    display: inline-grid;
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -113,8 +111,13 @@
   
   .portfolio-card {
     float: left;
-    width: 50%;
-    padding: 50px;
+    width: 30%;
+    padding: 20px;
+    height: 50%;
+    position: relative;
+    /* top: 20%; */
+    left: 20%;
+    /* transform: translate(-25%, -25%); */
   }
   
   .portfolio::after {
@@ -123,12 +126,40 @@
     display: table;
   }
 
-  @media screen and (max-width: 500px) {
+  @media only screen and (max-width: 500px) {
     .portfolio-card {
       width: 100%;
+      display: table-row;
+      /* top: 10%; */
+      left: 0px;
     }
 
     .portfolio {
       height: 100%;
     }
+  }
+
+    
+  @media screen and (max-width: 300px) {
+    .portfolio-card {
+      width: 100%;
+      display: table-row;
+      /* top: 10%; */
+      left: 0px;
+    }
+    .portfolio {
+      height: 100%;
+    }
+  }
+
+  #settlewise {
+    height: 100%;
+  }
+  #website { 
+    height: 100%;
+  }
+
+  .cards ul {
+    padding-top: 5px;
+    padding-left: 0px !important;
   }

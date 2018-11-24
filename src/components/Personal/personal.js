@@ -53,25 +53,29 @@ export default class Personal extends React.Component {
     return (
       <div className="section-target" id='personal'>
         <div className='cards'>
-          <img src={sport} alt="ECMA6" className='img-responsive' />
+        <i class="fas fa-dumbbell fa-10x" id="dumbbell"></i>
+          {/* <img src={sport} alt="ECMA6" className='img-responsive' /> */}
           <ul>
             <li>Sports Lover</li>
             <li>Martial arts fanatic</li>
-            <li>Rugby, American football, Soccer and Basketball</li>
+            <li>Practisioner of Hunggar Kung fu</li>
           </ul>
         </div>
         <div className='cards'>
-          <img src={energy} alt="react" className='img-responsive' />
+        <i class="fas fa-battery-full fa-10x" id="battery"></i>
+          {/* <img src={energy} alt="react" className='img-responsive' /> */}
           <ul>
             <li>Full energy</li>
             <li>Proactive</li>
-            <li>Always looking for the better way to do it</li>
+            <li>Aching to improve</li>
           </ul>
         </div>
         <div className='cards'>
-          <img src={world} alt="CSS" className='img-responsive'/>
+        <i class="fas fa-user-astronaut fa-10x" id="astronaut"></i>
+          {/* <img src={world} alt="CSS" className='img-responsive'/> */}
           <ul>
-            <li>Globetrotter</li>
+            <li>Adventurer</li>
+            <li>Lover of the challenges</li>
             <li>Love to travel</li>
           </ul>
         </div>

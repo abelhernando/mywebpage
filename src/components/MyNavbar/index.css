@@ -6,6 +6,11 @@
     z-index: 1;
 }
 
+.navbar,
+.navbar-default {
+    /* background-image: linear-gradient(to bottom,rgb(0, 133, 201) 0,rgb(0, 133, 201) 100%) !important; override background image gradient w/ flat color */
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     padding: 0;

@@ -42,7 +42,7 @@ export default class Skills extends React.Component {
           <ul>
             <Flip top cascade>
               <li>Mobile First and Web responsive</li>
-              <li>CSS3, Sass and Bootstrap</li>
+              <li>CSS3, Sass, less and Bootstrap</li>
             </Flip>
           </ul>
         </div>
@@ -53,7 +53,8 @@ export default class Skills extends React.Component {
           <ul>
             <Flip top cascade>
               <li>Agile system, Scrum and Kanban</li>
-              <li>UNDEFINED</li>
+              <li>Background on Management</li>
+              <li>Optimization of the tasks</li>
             </Flip>
           </ul>
         </div>
