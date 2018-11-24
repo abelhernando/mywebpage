@@ -1,0 +1,18 @@
+.skills {
+    height: 100%;
+    display: inline-flex;
+    text-align: left;
+    align-items: center;
+    margin: 5%;
+}
+
+#skills {
+display: inline-grid;
+margin-bottom: 10%;
+}
+
+.skills img{
+    max-width:170px;
+    max-height: 170px;
+}
+

@@ -1,0 +1,18 @@
+.header {
+    background-color: red;
+    height: 90%;
+    margin-top: 56px;
+    background: url(../../styles/images/propuesta1.png) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+
